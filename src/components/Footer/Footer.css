@@ -1,0 +1,15 @@
+.footer-container{
+    background-color: rgb(66, 66, 112);
+}
+.footer-info{
+    flex-direction:row-reverse;
+}
+.icon a{
+padding: 5px;
+ color: rgba(243, 234, 152, 0.644);
+}
+.icon-container{
+    display: inline-block;
+    font-size: 30px;
+    margin: 10px;
+}
