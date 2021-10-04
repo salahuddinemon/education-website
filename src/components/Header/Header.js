@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import { FormControl, InputGroup, Button, Navbar, Container, Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 // display header image & text 
 const Header = () => {
@@ -20,12 +21,12 @@ const Header = () => {
                         </Navbar.Brand>
 
                         {/* display header navigation */}
-                        <Nav className="me-0">
-                            <Nav.Link href="/home">Home</Nav.Link>
-                            <Nav.Link href="/courses">Courses</Nav.Link>
-                            <Nav.Link href="/about">About</Nav.Link>
-                            <Nav.Link href="/review">Review</Nav.Link>
-                            <Nav.Link href="/contact">Contact</Nav.Link>
+                        <Nav className="me-0 nav-container">
+                            <Link to="/home">Home</Link>
+                            <Link to="/courses">Courses</Link>
+                            <Link to="/about">About</Link>
+                            <Link to="/review">Review</Link>
+                            <Link to="/contact">Contact</Link>
                         </Nav>
                     </Container>
                 </Navbar>

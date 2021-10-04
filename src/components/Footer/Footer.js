@@ -16,7 +16,7 @@ const Footer = () => {
         <div>
             <hr />
             <div className="my-5">
-                <h3>Subscribe Newsletter</h3>
+                <h3 className="text-center">Subscribe Newsletter</h3>
                 <InputGroup className="mb-3 w-50 mx-auto">
                     <FormControl
                         placeholder="Enter your email id"

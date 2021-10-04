@@ -8,3 +8,9 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .nav-container a{
+  text-decoration: none;
+  color: white;
+  margin-right: 15px;
+  
+  }
