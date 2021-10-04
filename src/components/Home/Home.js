@@ -11,24 +11,27 @@ const Home = () => {
     const newCourses = courses.slice(0, 4);
     console.log(newCourses);
     return (
-        <div className="container row row-cols-1 row-cols-md-3 g-4 my-5 mx-auto">
-            {
-                newCourses.map((newCourse) => (
-                    <div className="">
-                        <div className="col">
-                            <div class="card border border-primary h-100">
-                                <img src={newCourse.img} className="card-img-top" alt="..." />
-                                <div className="card-body">
-                                    <h5 className="card-title">{newCourse.name}</h5>
-                                    <p className="card-text">{newCourse.instructor}</p>
-                                    <p className="card-text">Reviews: {newCourse.Ratings} ({newCourse.peopleReviewd})</p>
-                                    <p className="card-text">Price: {newCourse.price}</p>
+        <div>
+            <h1 className="text-center my-3">Our Tranding Courses</h1>
+            <div className="container row row-cols-1 row-cols-md-3 g-4 my-5 mx-auto">
+                {
+                    newCourses.map((newCourse) => (
+                        <div className="">
+                            <div className="col">
+                                <div class="card border border-primary h-100">
+                                    <img src={newCourse.img} className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">{newCourse.name}</h5>
+                                        <p className="card-text">{newCourse.instructor}</p>
+                                        <p className="card-text">Reviews: {newCourse.Ratings} ({newCourse.peopleReviewd})</p>
+                                        <p className="card-text">Price: {newCourse.price}</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                ))
-            }
+                    ))
+                }
+            </div>
         </div>
     );
 };
