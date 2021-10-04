@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Course from '../Course/Course';
 import './Courses.css'
 
+//declare state to import data
 const Courses = () => {
     const [courses, setCourses] = useState([]);
     useEffect(() => {
@@ -10,6 +11,7 @@ const Courses = () => {
             .then(data => setCourses(data))
     }, []);
 
+    //maping json file to import data
     return (
         <div className="courses-container">
             <div className="text-success my-5">

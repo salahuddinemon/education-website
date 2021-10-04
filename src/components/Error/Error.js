@@ -1,6 +1,7 @@
 import React from 'react';
 import './Error.css';
 
+//display error message
 const Error = () => {
     return (
         <div>

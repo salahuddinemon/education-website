@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css';
 import { FormControl, InputGroup, Button, Navbar, Container, Nav } from 'react-bootstrap';
 
+// display header image & text 
 const Header = () => {
     return (
         <div>
@@ -18,6 +19,7 @@ const Header = () => {
                             /> EduX - Leading Online Learning
                         </Navbar.Brand>
 
+                        {/* display header navigation */}
                         <Nav className="me-0">
                             <Nav.Link href="/home">Home</Nav.Link>
                             <Nav.Link href="/courses">Courses</Nav.Link>
@@ -27,6 +29,7 @@ const Header = () => {
                         </Nav>
                     </Container>
                 </Navbar>
+                {/* display header text  */}
                 <div className="">
                     <div className="row d-flex banner align-items-center justify-content-center">
                         <div className="col-md-8">
@@ -43,6 +46,8 @@ const Header = () => {
                                     aria-label="Recipient's username"
                                     aria-describedby="basic-addon2"
                                 />
+
+                                {/* header button  */}
                                 <Button variant="text-white bg-success" id="button-addon2">Search</Button>
                             </InputGroup>
                         </div>

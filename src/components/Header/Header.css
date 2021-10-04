@@ -1,3 +1,4 @@
+/* banner of header style */
 .banner {
     background-image: url("/src/image/banner.jpg"),
     linear-gradient(rgba(46, 21, 21, 0.5), rgba(134, 77, 77, 0.5));

@@ -16,7 +16,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Review from './components/Review/Review';
 
-
+// rander all router 
 function App() {
   return (
     <div className="App">

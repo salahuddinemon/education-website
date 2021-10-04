@@ -1,6 +1,7 @@
 import React from 'react';
 import './Course.css'
 
+//display data dynamically
 const Course = (props) => {
     const { img, name, instructor, Ratings, price, peopleReviewd } = props.course;
     return (
